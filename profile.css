@@ -1,5 +1,10 @@
 body {
-        font-family: 'Cardo', serif;
+        font-family: 'Book Antiqua', sans-serif;
+        background-color: aliceblue;
+}
+
+h1 {
+        text-align: center;
 }
 
 .section-title {
@@ -8,6 +13,54 @@ body {
 }
 .subsection {
         font-weight: bold;
+        color: darkgreen;
 }
 .job-location {
+        font-weight: bold;
 }
+
+.image {
+        display: block;
+        height: 30%;
+        width:30%;
+        margin-left: auto;
+        margin-right: auto;
+
+}
+
+.bio {
+        text-align: left;
+        margin-left: 25%;
+        margin-right:25%;
+}
+nav {
+        background-color: cornflowerblue;
+        width: 100%;
+}
+
+nav ul {
+        top: 0;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        overflow: hidden;
+        width: 100%;
+}
+
+nav ul li {
+        width: 33%;
+        float: left;
+}
+
+nav ul li a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        padding:14px 16px;
+}
+
+nav ul li a:hover {
+        background-color:mediumturquoise;
+}
+
