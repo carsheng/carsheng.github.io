@@ -1,11 +1,58 @@
+/* All pages */
 body {
         font-family: 'Book Antiqua', sans-serif;
         background-color: aliceblue;
+        padding-top: 3%;
 }
 
 h1 {
         text-align: center;
 }
+/* navigation bar */
+nav {
+        background-color: aliceblue;
+        width: 100%;
+        position:fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+}
+
+nav ul {
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+}
+
+nav ul li {
+        width: 33%;
+        float: left;
+}
+
+nav ul li a {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        padding:14px 16px;
+}
+
+nav ul li a:hover {
+        color:mediumturquoise;
+}
+
+/* index.html */
+.image {
+        display: block;
+        height: 30%;
+        width:30%;
+        margin-left: auto;
+        margin-right: auto;
+}
+/* resume.html */
 
 .section-title {
         font-weight: bold;
@@ -19,48 +66,9 @@ h1 {
         font-weight: bold;
 }
 
-.image {
-        display: block;
-        height: 30%;
-        width:30%;
-        margin-left: auto;
-        margin-right: auto;
-
-}
-
+/* bio.html */
 .bio {
         text-align: left;
         margin-left: 25%;
         margin-right:25%;
 }
-nav {
-        background-color: cornflowerblue;
-        width: 100%;
-}
-
-nav ul {
-        top: 0;
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-        overflow: hidden;
-        width: 100%;
-}
-
-nav ul li {
-        width: 33%;
-        float: left;
-}
-
-nav ul li a {
-        display: block;
-        width: 100%;
-        text-align: center;
-        text-decoration: none;
-        padding:14px 16px;
-}
-
-nav ul li a:hover {
-        background-color:mediumturquoise;
-}
-
