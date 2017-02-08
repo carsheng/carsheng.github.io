@@ -1,7 +1,7 @@
 /* All pages */
 body {
         font-family: 'Book Antiqua', sans-serif;
-        background-color: aliceblue;
+        background-color: #F0F8FF;
         padding-top: 3%;
 }
 
@@ -10,7 +10,7 @@ h1 {
 }
 /* navigation bar */
 nav {
-        background-color: aliceblue;
+        background-color: #F0F8FF;
         width: 100%;
         position:fixed;
         top: 0;
@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-        color:mediumturquoise;
+        color: #00CED1;
 }
 
 /* index.html */
@@ -52,15 +52,15 @@ nav ul li a:hover {
         margin-left: auto;
         margin-right: auto;
 }
-/* resume.html */
 
+/* resume.html */
 .section-title {
         font-weight: bold;
 
 }
 .subsection {
         font-weight: bold;
-        color: darkgreen;
+        color: #006400;
 }
 .job-location {
         font-weight: bold;
